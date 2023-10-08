@@ -20,13 +20,16 @@ The examples try to make you understand the differences between iterators, itera
 4. A generator is an iterator, but more advanced because you can do a whole bunch of things in the generator function.
 5. Yes, we can call `next` on a generator because a generator is an iterator, so it has properties of iterators and iterables.
 
-## WWPD (What Would Python Do) Check
 
 ### List Operations
 
-Here we want to check and test the differences between slicing, concatenating, or references to the list object. A major thing in this example is, does concatenating a list that has a reference to another list make a copy?
+Here we want to check and test the differences between slicing, concatenating, or references to the list object.
 
-**Note**: No, it still has the reference to it, so modifying the referenced list will modify this recently concatenated list.
+- Does concatenating a list that has a reference to another list make a copy?
+
+1. No, it still has the reference to it, so modifying the referenced list will modify this recently concatenated list.
+
+## WWPD (What Would Python Do) Check
 
 ### WWPD Links:
 
