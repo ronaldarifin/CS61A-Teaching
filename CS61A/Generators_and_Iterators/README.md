@@ -21,11 +21,12 @@ The examples try to make you understand the differences between iterators, itera
 5. Yes, we can call `next` on a generator because a generator is an iterator, so it has properties of iterators and iterables.
 
 
-### List Operations
+## List Operations
 
 Here we want to check and test the differences between slicing, concatenating, or references to the list object.
 
 - Does concatenating a list that has a reference to another list make a copy?
+### Answers:
 
 1. No, it still has the reference to it, so modifying the referenced list will modify this recently concatenated list.
 
