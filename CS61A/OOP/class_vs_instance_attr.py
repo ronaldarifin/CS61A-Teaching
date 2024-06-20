@@ -9,7 +9,7 @@ class Car:
         self.thisIsAnInstanceAttribute = 0
         mystery = 1
 
-a = Car()
+a = Car("hello")
 # this line will error because we don't have a mystery attribute for the instance.
 # print(a.mystery)
 b = Car()
